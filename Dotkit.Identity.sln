@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotki.Identity.WebApi", "src\Dotki.Identity.WebApi\Dotki.Identity.WebApi.csproj", "{E4292EA0-E334-4728-A148-CE12928ED63C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotkit.Identity.Tests", "tests\Dotkit.Identity.Tests\Dotkit.Identity.Tests.csproj", "{0DA34C81-B2A5-4B16-A2ED-C926C7091706}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotkit.Identity.Persistence", "src\Dotkit.Identity.Persistence\Dotkit.Identity.Persistence.csproj", "{85F3B419-733A-4FA5-8209-F2FA050B57F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotkit.Identity.Application", "src\Dotkit.Identity.Application\Dotkit.Identity.Application.csproj", "{33678901-8FB3-4198-8E7F-FD7C81329E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotkit.Identity.ExternalContracts", "src\Dotkit.Identity.ExternalContracts\Dotkit.Identity.ExternalContracts.csproj", "{A24BDC2D-CAFB-4778-A032-7293A889CAD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4292EA0-E334-4728-A148-CE12928ED63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4292EA0-E334-4728-A148-CE12928ED63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4292EA0-E334-4728-A148-CE12928ED63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4292EA0-E334-4728-A148-CE12928ED63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA34C81-B2A5-4B16-A2ED-C926C7091706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA34C81-B2A5-4B16-A2ED-C926C7091706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA34C81-B2A5-4B16-A2ED-C926C7091706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA34C81-B2A5-4B16-A2ED-C926C7091706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F3B419-733A-4FA5-8209-F2FA050B57F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F3B419-733A-4FA5-8209-F2FA050B57F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F3B419-733A-4FA5-8209-F2FA050B57F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F3B419-733A-4FA5-8209-F2FA050B57F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33678901-8FB3-4198-8E7F-FD7C81329E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33678901-8FB3-4198-8E7F-FD7C81329E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33678901-8FB3-4198-8E7F-FD7C81329E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33678901-8FB3-4198-8E7F-FD7C81329E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24BDC2D-CAFB-4778-A032-7293A889CAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24BDC2D-CAFB-4778-A032-7293A889CAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24BDC2D-CAFB-4778-A032-7293A889CAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24BDC2D-CAFB-4778-A032-7293A889CAD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6C4AD80-E431-41E8-A054-2BD41576D46A}
+	EndGlobalSection
+EndGlobal
